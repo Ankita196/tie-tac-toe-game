@@ -1,0 +1,48 @@
+*{
+  margin: 0;  
+  padding: 0;
+}
+
+body{
+    background-color: #97aabd;
+}
+table{
+  border-collapse: collapse;  
+  border-spacing: 0;
+  margin: 10px auto;
+  background-color: rgb(29, 9, 9)
+}
+
+table tr td {
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+    font-size: 35px;
+    text-align: center;
+}
+
+table tr td:hover {
+    background-color: #dbe7e2;
+    cursor: pointer;
+}
+.winner {
+	width: 240px;
+	height: 140px;
+	margin: 10px auto;
+	font-size: 60px;
+	text-align: center;
+  border: 1px solid white;
+}
+.winner span {
+	font-size: 40px;
+	display: block;
+}
+button {
+	width: 240px;
+	height: 100px;
+	margin: 10px auto;
+	display: block;
+	border: 1px solid white;
+	background-color: #272727;
+	font-size: 40px;
+}
